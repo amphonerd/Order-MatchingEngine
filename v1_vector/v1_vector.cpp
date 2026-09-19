@@ -141,7 +141,7 @@ int main()
     Sell.clear(); // start the benchmark with an empty book
     printTrades = false;
 
-    const int N = 50000; 
+    const int N = 100000; 
     mt19937 rng(12345);  // fixed seed = same orders every run
 
     // generate all orders
